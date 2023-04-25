@@ -3,6 +3,7 @@
 const checker = require('./isogram');
 
 module.exports.isIsogramHandler = async (event) => {
+  // validate user input
   if (!event.queryStringParameters || !event.queryStringParameters.word) {
     return {
       statusCode: 400,
