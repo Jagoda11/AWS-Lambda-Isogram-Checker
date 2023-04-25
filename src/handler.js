@@ -2,7 +2,7 @@
 
 const checker = require('./isogram');
 
-module.exports.isIsogramHandler = (event) => {
+module.exports.isIsogramHandler = async (event) => {
   const word = event.queryStringParameters.word;
   const isIsogram = checker.isIsogram(word);
 
