@@ -1,16 +1,16 @@
-# serverless.yml
-service: Isogrammer
+# 📄 serverless.yml
+service: Isogrammer 📚
 frameworkVersion: '3'
 
 provider:
-  name: aws
-  runtime: nodejs18.x
+  name: aws 🌐
+  runtime: nodejs18.x 🟢
 
 functions:
   api:
-    handler: src/handler.isIsogramHandler
-    description: Checking if the word is isogram
+    handler: src/handler.isIsogramHandler 🖐️
+    description: Checking if the word is isogram 🧐
     events:
       - httpApi:
-          path: /
-          method: get
+          path: / 🛣️
+          method: get 📥
