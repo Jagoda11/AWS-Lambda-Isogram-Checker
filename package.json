@@ -11,7 +11,7 @@
   "license": "MIT",
   "keywords": ["isogram", "AWS Lambda", "serverless", "nodejs"],
   "dependencies": {
-    "jest": "^30.0.0"
+    "jest": "^30.0.3"
   },
   "scripts": {
     "test": "echo '🧪 Running tests...' && jest",
